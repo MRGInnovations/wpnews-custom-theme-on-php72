@@ -12,25 +12,26 @@
 
         <!-- Place favicon.ico and apple-touch-icon(s) here  -->
 
-        <link rel="shortcut icon" href="http://cdn.ink.sapo.pt/3.1.10/img/favicon.ico">
-        <link rel="apple-touch-icon" href="http://cdn.ink.sapo.pt/3.1.10/img/touch-icon-iphone.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="http://cdn.ink.sapo.pt/3.1.10/img/touch-icon-ipad.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="http://cdn.ink.sapo.pt/3.1.10/img/touch-icon-iphone-retina.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="http://cdn.ink.sapo.pt/3.1.10/img/touch-icon-ipad-retina.png">
-        <link rel="apple-touch-startup-image" href="http://cdn.ink.sapo.pt/3.1.10/img/splash.320x460.png" media="screen and (min-device-width: 200px) and (max-device-width: 320px) and (orientation:portrait)">
-        <link rel="apple-touch-startup-image" href="http://cdn.ink.sapo.pt/3.1.10/img/splash.768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
-        <link rel="apple-touch-startup-image" href="http://cdn.ink.sapo.pt/3.1.10/img/splash.1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+        <link rel="shortcut icon" href="<?php echo substr(get_stylesheet_uri(), 0, -9); ?>img/favicon.ico">
+        <link rel="apple-touch-icon" href="<?php echo substr(get_stylesheet_uri(), 0, -9); ?>img/touch-icon-iphone.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="<?php echo substr(get_stylesheet_uri(), 0, -9); ?>img/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="<?php echo substr(get_stylesheet_uri(), 0, -9); ?>img/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="<?php echo substr(get_stylesheet_uri(), 0, -9); ?>img/touch-icon-ipad-retina.png">
+        <link rel="apple-touch-startup-image" href="<?php echo substr(get_stylesheet_uri(), 0, -9); ?>img/splash.320x460.png" media="screen and (min-device-width: 200px) and (max-device-width: 320px) and (orientation:portrait)">
+        <link rel="apple-touch-startup-image" href="<?php echo substr(get_stylesheet_uri(), 0, -9); ?>img/splash.768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+        <link rel="apple-touch-startup-image" href="<?php echo substr(get_stylesheet_uri(), 0, -9); ?>img/splash.1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
 
         <!-- load Ink's css from the cdn -->
-        <link rel="stylesheet" type="text/css" href="http://cdn.ink.sapo.pt/3.1.10/css/ink-flex.min.css">
-        <link rel="stylesheet" type="text/css" href="http://cdn.ink.sapo.pt/3.1.10/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo substr(get_stylesheet_uri(), 0, -9); ?>css/ink-flex.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="<?php echo substr(get_stylesheet_uri(), 0, -9); ?>css/font-awesome.min.css">
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
 
         <!-- load Ink's javascript files from the cdn -->
-        <script type="text/javascript" src="http://cdn.ink.sapo.pt/3.1.10/js/holder.js"></script>
-        <script type="text/javascript" src="http://cdn.ink.sapo.pt/3.1.10/js/ink-all.min.js"></script>
-        <script type="text/javascript" src="http://cdn.ink.sapo.pt/3.1.10/js/autoload.js"></script>
+        <script type="text/javascript" src="<?php echo substr(get_stylesheet_uri(), 0, -9); ?>js/holder.js"></script>
+        <script type="text/javascript" src="<?php echo substr(get_stylesheet_uri(), 0, -9); ?>js/ink-all.min.js"></script>
+        <script type="text/javascript" src="<?php echo substr(get_stylesheet_uri(), 0, -9); ?>js/autoload.js"></script>
 
         <style>
 
